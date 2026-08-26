@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(165, 210, 247), rgb(0, 0, 0));
+        }
+    </style>
 </head>
 
 <body>
@@ -23,12 +29,17 @@
     </head>
 
     <body>
-        <div>
-            <div>
+        <div class="caja_master">
+            <div class="hijo1">
                 <img src="imagenes/logo.jpg" alt="imagen" width="150px">
             </div>
-            <div>
-                <h2 class="titulo">Instagriddy</h2>
+            <div class="hijo2">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
             </div>
         </div>
 
