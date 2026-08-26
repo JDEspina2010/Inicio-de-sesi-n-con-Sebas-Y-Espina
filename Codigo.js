@@ -1,4 +1,4 @@
-function IniciarSesion() {
+function inicio() {
     let usuario = document.getElementById("user").value;
     let contrasena = document.getElementById("contrasena").value;
     if (usuario === "admin" && contrasena == "1234") {
