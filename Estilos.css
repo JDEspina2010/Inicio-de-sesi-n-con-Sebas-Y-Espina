@@ -1,0 +1,6 @@
+.caja_master{
+display: flex;
+}
+.hijo2{
+    width:300px;
+}
