@@ -4,3 +4,9 @@ display: flex;
 .hijo2{
     width:300px;
 }
+#exampleInputPassword1{
+    width: 30%;
+}
+#exampleInputEmail1{
+    width: 30%;
+}
